@@ -1,0 +1,120 @@
+.container {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 20px;
+     font-weight: bold;
+}
+
+.info-container{
+     background-color: lightgrey;
+     height: 500px;
+     width: 700px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+
+.pokemon-info-left{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     /* background-color: blue; */
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     width: 50%;
+}
+
+.pokemon-info-left p {
+     margin-top: 30px;
+     width: fit-content;
+     align-self: center;
+}
+
+.pokemon-info-left img {
+     width: fit-content;
+     align-self: center;
+     margin-bottom: 50%;
+}
+
+.pokemon-info-right {
+     /* background-color: yellow; */
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     width: 50%;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+}
+
+.fav-button {
+     display: flex;
+     justify-content: center;
+}
+.favoritado{
+     padding: 10px;
+     align-self: center;
+     border-radius: 10px;
+     width: 150px;
+     font-weight: bold;
+     background-color: green;
+     color: white;
+}
+
+.desfavoritado {
+     padding: 10px;
+     align-self: center;
+     border-radius: 10px;
+     width: 150px;
+     font-weight: bold;
+     background-color: red;
+     color: white;
+}
+
+.pokemon-name {
+     display: flex;
+     justify-content: center;
+}
+
+.pokemon-name{
+     display: flex;
+     justify-content: center;
+}
+
+.pokemon-kind{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+}
+
+/* .pokemon-kinds {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+} */
+
+.pokemon-kind p{
+     background-color: orange;
+     border-radius: 10px;
+     padding: 10px;
+     margin: 5px;
+
+}
+
+.pokemon-weigth {
+     display: flex;
+     justify-content: center;
+}
+
+.pokemon-height {
+     display: flex;
+     justify-content: center;
+}
+
+.fav-button{
+     color: green;
+}

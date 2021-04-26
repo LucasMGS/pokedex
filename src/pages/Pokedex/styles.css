@@ -1,0 +1,44 @@
+.grid-container{
+     display: grid;
+     grid-template-columns: max-content max-content max-content max-content max-content max-content ;
+     grid-auto-columns: auto;
+     column-gap: 20px;
+     row-gap: 20px;
+     justify-content: center;
+     align-items: center;
+}
+
+.pokemons-title {
+     font-size: 40px;
+     display: flex;
+     justify-content: center;
+     margin-top: 25px;
+     font-family: Pokemon Hollow;
+}
+
+@media (max-width: 1000px){
+     .grid-container{
+          grid-template-columns: max-content max-content max-content max-content;
+     }
+}
+
+@media (min-width: 650px) and (max-width: 1000px){
+     .grid-container{
+          grid-template-columns: max-content max-content max-content;
+     }
+}
+
+@media (max-width: 650px){
+     .grid-container{
+          grid-template-columns: max-content max-content;
+     }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px){
+     .grid-container{
+          grid-template-columns: max-content max-content max-content max-content;
+     }
+}
+
+
+

@@ -1,0 +1,50 @@
+
+.pokemons-container{
+     padding: 20px;
+     width: 150px;
+     border-width: 1px;
+     border-style: solid;
+     height: fit-content;
+     margin-top: 20px;
+     margin-left: 15px;
+     box-shadow: -1px 1.2px 1px grey;
+     border-radius: 10px;
+     background-color: white; 
+     transition: transform 450ms;
+     display: flex;
+     justify-content: center;
+     align-self: center;
+}
+
+.pokemons-container:hover{
+     transform: scale(1.10);
+}
+
+
+p{
+     display: flex;
+     justify-content: center;
+}
+
+.pokemon-kinds {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+.kind {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     border: 1px;
+     padding: 4px;
+     margin: 3px;
+     border-width: 1px;
+     border-radius: 10px;
+     border-style: solid;
+     
+}
+
+.kind p{
+     font-size: 14px;
+}

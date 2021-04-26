@@ -1,0 +1,23 @@
+.nav-bar {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     height: 65px;
+     font-size: 16px;
+     align-items: center;
+     background-image: linear-gradient(to bottom, red 20%,white);
+     box-shadow: 1px 0.5px 2px black;
+     font-family: Pokemon Solid;
+}
+
+.nav-bar nav {
+     font-size: 30px;
+     padding-left: 25px;
+}
+
+.nav-buttons{
+     width: 200px;
+     /* background-color: red; */
+     display: flex;
+     justify-content: space-evenly;     
+}
