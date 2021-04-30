@@ -10,7 +10,7 @@
 }
 
 .info-container{
-     background-color: lightgrey;
+     
      height: 500px;
      width: 700px;
      border-radius: 10px;
@@ -42,7 +42,6 @@
 }
 
 .pokemon-info-right {
-     /* background-color: yellow; */
      border-top-right-radius: 10px;
      border-bottom-right-radius: 10px;
      width: 50%;
@@ -85,25 +84,21 @@
      justify-content: center;
 }
 
-.pokemon-kind{
+
+.specific-pokemon-kind-container {
      display: flex;
-     justify-content: center;
      flex-direction: row;
+     justify-content: center;    
+     
 }
 
-/* .pokemon-kinds {
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-} */
-
-.pokemon-kind p{
-     background-color: orange;
-     border-radius: 10px;
+.specific-pokemon-kind{
+     border: 1px solid black;
      padding: 10px;
      margin: 5px;
-
+     border-radius: 10px;
 }
+
 
 .pokemon-weigth {
      display: flex;

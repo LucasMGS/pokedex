@@ -8,11 +8,11 @@ function pokemonCard({ pokemon }) {
 	
 	return (
 		<Fragment>
-				<div style={{ backgroundColor: colors[pokemon.kind.split(';')[0]] }} className="pokemons-container">
+				<div style={{ background: colors[pokemon.kind.split(';')[0]] }} className="pokemons-container">
 					<NavLink to={`pokemon/${pokemon.name}`} style={{ textDecoration: 'none', color: 'black' }} exact replace={false}>
 						<img src={pokemon.image_url} alt="pokemon-img" />
 						<p>
-							<strong style={{ textDecoration: 'none' }}>{pokemon.name}</strong>
+							<strong style={{ textDecoration: 'none' }}>{pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}</strong>
 						</p>
 						<div className="pokemon-kinds">
 							{pokemon.kind.split(';').map((kind) => (

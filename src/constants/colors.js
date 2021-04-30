@@ -10,7 +10,13 @@ const colors =  {
      ground: '#DB7645',
      steel: '#598FA2',
      fairy: '#F385E4',
-     rock: '#C7B78A'
+     rock: '#C7B78A',
+     ghost: '#33336B',
+     fighting: '#994025',
+     ice: '#86D1F6',
+     psychic: '#A42A6C',
+     dark: '#57617B',
+     dragon: '#448B95'
 };
 
 export default colors;

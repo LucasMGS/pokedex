@@ -5,7 +5,6 @@
      column-gap: 20px;
      row-gap: 20px;
      justify-content: center;
-     align-items: center;
 }
 
 .pokemons-title {
@@ -15,6 +14,42 @@
      margin-top: 25px;
      font-family: Pokemon Hollow;
 }
+
+.pagination {
+     padding-bottom: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+.page-item {
+     padding: 10px;
+     border-style: solid;
+     border-width: 1px;
+     border-color: lightgray;
+     border-radius: 2px;
+     margin-left: 1px;
+     margin-right: 1px;
+}
+
+.page-link {
+     text-decoration: none;
+     color:black;
+}
+
+.page-item:hover{
+     background-color: lightgray;
+     color: whitesmoke;
+}
+
+.active-item {
+     background-color: gray;
+}
+
+.item-link{
+     color: white;
+}
+
 
 @media (max-width: 1000px){
      .grid-container{
