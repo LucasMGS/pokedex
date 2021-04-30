@@ -1,4 +1,4 @@
 # POKEDEX
 
-[login_page](images/login_page.png)
+![login_page](images/login_page.png)
 
