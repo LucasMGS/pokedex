@@ -1,4 +1,4 @@
 # POKEDEX
 
-![login_page](images/login_page.png | width= 200)
+![login_page](images/login_page.png =200x200)
 
