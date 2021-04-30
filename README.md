@@ -1,4 +1,4 @@
 # POKEDEX
 
-<img src="images/login_page" height="200" width="200"></img>
+![login_page](https://github.com/lucasmgs/pokedex/blob/master/login_page.png?raw=true)
 
