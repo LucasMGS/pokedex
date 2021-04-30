@@ -17,6 +17,7 @@ function Perfil() {
 			setPokemons(response.data.pokemons);
 			setIsLoading(false);
 		});
+		return () => false;
 	} catch(error){
 		console.log(error);
 	}finally{
@@ -30,10 +31,10 @@ function Perfil() {
 			<NavBar />
 			<h1 className="pokemons-title">Meus pokémons favoritos</h1>
 			<div className="grid-container">
-
-				  {isLoading ? <Loading /> : pokemons.isEmpty ? <div>Você ainda não tem pokémons favoritos!</div> : pokemons.map((pokemon) => (
-				 	<PokemonCard key={pokemon.id} pokemon={pokemon} isLoading={isLoading} />
-				 ))}
+				
+				{isLoading ? <Loading /> : !pokemons ? <div>Você ainda não tem pokémons favoritos!</div> : pokemons.map((pokemon) => (
+				<PokemonCard key={pokemon.id} pokemon={pokemon} isLoading={isLoading} />
+				))}
 			</div>
 		</>
 	);

@@ -10,7 +10,7 @@ function navBar() {
           <div className="nav-buttons">
                <Link to="/pokedex" style={{textDecoration: "none", color: "black"}}>Pokedex</Link>
                <Link to="/perfil" style={{textDecoration: "none", color: "black"}}>Perfil</Link>
-               <Link to="/" onClick={localStorage.removeItem('username')} style={{textDecoration: "none", color: "black"}}>Sair</Link>
+               <Link to="/" onClick={() => localStorage.removeItem('username')} style={{textDecoration: "none", color: "black"}}>Sair</Link>
           </div>
      </div>
 </header>

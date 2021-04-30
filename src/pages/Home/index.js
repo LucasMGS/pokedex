@@ -24,7 +24,7 @@ function Home() {
 					await api.post('users', { username });
 				})
 				.finally(() => {
-					localStorage.setItem('username', JSON.stringify(username));
+					localStorage.setItem('username', username);
 					 history.push('/pokedex');
 				});
 		} catch (error) {
@@ -38,7 +38,6 @@ function Home() {
 			<form onSubmit={registrarUsuario}>
 				<div className="input-container">
 					<input onChange={(e) => setUsername(e.target.value)} placeholder="Seu nome de treinador" />
-
 					<button className="button">Ver pokedex</button>
 				</div>
 			</form>
